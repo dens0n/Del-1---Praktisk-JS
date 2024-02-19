@@ -10,6 +10,8 @@ const car = {
   
   function addIsFast(car) {
     // Din kod här
+    
+    return {...car, isFast: car.speed>100}
 
   }
 
@@ -17,7 +19,7 @@ const car = {
 // destructuring av objektet som returneras från addIsFast.
 
 // Din kod här:
-
+const {name, speed, isFast} = car
 
 
 console.log(addIsFast(car)); // Ska logga { name: "Volvo", speed: 120, isFast: true }
