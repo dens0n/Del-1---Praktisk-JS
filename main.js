@@ -1,5 +1,5 @@
-import Student from "./Student.js";
-import Course from "./Course.js";
+import { Student } from "./student.js";
+import Course from "./course.js";
 
 // Test
 const student1 = new Student("Sandra");
